@@ -1,5 +1,6 @@
 import React from "react";
 import { AppUI } from "./AppUI";
+import { useLocalStorage } from "../hooks/useLocalStorage";
 
 // const defaultTodos = [
 //   { text: 'Cortar cebolla', completed: true },
@@ -9,20 +10,19 @@ import { AppUI } from "./AppUI";
 // ];
 
 function App() {
-  const localStorageTodos = localStorage.getItem("TODOS_V1");
-  let parsedTodos;
-  if (!localStorageTodos) {
-    localStorage.setItem("TODOS_V1", JSON.stringify([]));
-    parsedTodos = [];
-  } else {
-    parsedTodos = JSON.parse(localStorageTodos);
-  }
-
-  const [todos, setTodos] = React.useState(parsedTodos);
+  const {
+    item: todos,
+    saveItem: saveTodos,
+    loading,
+    error,
+  } = useLocalStorage("TODOS_V1", []);
   const [searchValue, setSearchValue] = React.useState("");
+
   const completedTodos = todos.filter((todo) => !!todo.completed).length;
   const totalTodos = todos.length;
+
   let searchedTodos = [];
+
   if (!searchValue.length >= 1) {
     searchedTodos = todos;
   } else {
@@ -46,14 +46,11 @@ function App() {
     newTodos.splice(todoIndex, 1);
     saveTodos(newTodos);
   };
-  
-  const saveTodos = (newTodos) => {
-    setTodos(newTodos);
-    const stringifiedTodos = JSON.stringify(newTodos);
-    localStorage.setItem("TODOS_V1", stringifiedTodos);
-  };
+
   return (
     <AppUI
+      loading={loading}
+      error={error}
       totalTodos={totalTodos}
       completedTodos={completedTodos}
       searchValue={searchValue}
