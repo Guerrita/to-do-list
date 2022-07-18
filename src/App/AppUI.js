@@ -5,6 +5,7 @@ import { TodoList } from "../Components/TodoList";
 import { TodoItem } from "../Components/TodoItem";
 import { CreateTodoButton } from "../Components/CreateTodoButton";
 import { TodoContext } from "../context/AppContext";
+import {Modal} from '../Components/Modal'
 
 function AppUI() {
   const { error, loading, searchedTodos, completeTodo, deleteTodo } =
