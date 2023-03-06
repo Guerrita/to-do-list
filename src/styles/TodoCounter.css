@@ -1,6 +1,7 @@
+@import "_vars";
+
 .TodoCounter {
   font-size: 24px;
   text-align: center;
-  margin: 0;
-  padding: 50px 30px; 
+  margin-bottom: 30px ;
 }

@@ -1,0 +1,12 @@
+@import "_vars";
+
+.empty-todos-title{
+text-align: center;
+font-size: 28px;
+}
+
+.empty-todos-image{
+  display: flex;
+  margin: auto;
+  width: 80%;
+}

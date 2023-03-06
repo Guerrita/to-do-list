@@ -1,6 +1,12 @@
+@import "_vars";
+
 .todos-container {
   margin: 0;
-  padding: 0 0 56px 0;
+  padding: 20px 0;
   list-style: none;
   width: 100%;
+}
+
+.todos-container p {
+  font-size: 1.8rem;
 }

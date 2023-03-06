@@ -1,5 +1,7 @@
+@import "_vars";
+
 .ModalBackground {
-  background: rgba(32,35,41,.8);
+  background: #5055a1d1;
   position: fixed;
   top: -10px;
   left: -10px;

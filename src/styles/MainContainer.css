@@ -1,0 +1,10 @@
+@import "_vars";
+
+
+.main-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  padding: 50px;
+  gap: 30px;
+}

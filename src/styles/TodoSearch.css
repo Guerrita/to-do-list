@@ -1,11 +1,12 @@
+@import "_vars";
+
 .TodoSearch {
   background: #F9FBFC;
-  border-radius: 2px;
+  border-radius: 40px;
   border: 2px solid #202329;
   margin: 0 auto;
   height: 64px;
   width: -webkit-fill-available;
-  max-width: 600px;
   font-size: 24px;
   text-align: center;
   font-family: 'Montserrat';
