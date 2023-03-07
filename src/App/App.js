@@ -1,25 +1,7 @@
 import React from "react";
-<<<<<<< HEAD
 import { TodoCounter } from "../Components/TodoCounter";
 import { TodoHeader } from "../Components/TodoHeader";
 import { TodoSearch } from "../Components/TodoSearch";
-import { TodoList } from "../Components/TodoList";
-import { TodoItem } from "../Components/TodoItem";
-import { CreateTodoButton } from "../Components/CreateTodoButton";
-import { useTodos } from "../hooks/useTodos";
-import { Modal } from "../Components/Modal";
-import { TodoForm } from "../Components/TodoForm";
-import { TodoInfo } from "../Components/TodoInfo";
-import { MainContainer } from "../Components/MainContainer";
-import "../styles/global.css";
-import { TodoLoading } from "../Components/TodoLoading";
-import { EmptyTodos } from "../Components/EmptyTodos";
-=======
->>>>>>> 35a0c36641fcfdb806ae0c569ec2c4f9871c5c28
-import '../styles/global.css'
-import { TodoHeader } from "../Components/TodoHeader";
-import { TodoCounter } from "../Components/TodoCounter"
-import { TodoSearch } from "../Components/TodoSearch"
 import { TodoList } from "../Components/TodoList";
 import { TodoItem } from "../Components/TodoItem";
 import { CreateTodoButton } from "../Components/CreateTodoButton";
@@ -45,11 +27,7 @@ function App() {
     completedTodos,
     searchValue,
     setSearchValue,
-<<<<<<< HEAD
     addTodo,
-=======
-    addTodo
->>>>>>> 35a0c36641fcfdb806ae0c569ec2c4f9871c5c28
   } = useTodos();
 
   return (
