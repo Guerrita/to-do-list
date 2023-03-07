@@ -37,27 +37,29 @@ function App() {
       </section>
 
       <section className="main-container--section">
-      <TodoHeader>
-        <TodoCounter
-          totalTodos={totalTodos}
-          completedTodos={completedTodos}
-        />
-        <TodoSearch
-          searchValue={searchValue}
-          setSearchValue={setSearchValue}
-        />
-      </TodoHeader>
+        <TodoHeader
+          loading={loading}
+        >
+          <TodoCounter
+            totalTodos={totalTodos}
+            completedTodos={completedTodos}
+          />
+          <TodoSearch
+            searchValue={searchValue}
+            setSearchValue={setSearchValue}
+          />
+        </TodoHeader>
 
-      <TodoList
-        error={error}
-        loading={loading}
-        searchedTodos={searchedTodos}
-        totalTodos = { totalTodos}
-        searchText = { searchValue }
-        onError={() => <TodosError />}
-        onLoading={() => <TodoLoading />}
-        onEmptyTodos={() => <EmptyTodos />}
-        onEmptySearchResults={(searchText) => <p>No hay resultados para {searchText}</p> }
+        <TodoList
+          error={error}
+          loading={loading}
+          searchedTodos={searchedTodos}
+          totalTodos={totalTodos}
+          searchText={searchValue}
+          onError={() => <TodosError />}
+          onLoading={() => <TodoLoading />}
+          onEmptyTodos={() => <EmptyTodos />}
+          onEmptySearchResults={(searchText) => <p>No hay resultados para {searchText}</p>}
 
         // render={todo => (
         //   <TodoItem
@@ -69,21 +71,21 @@ function App() {
         //   />
         // )}
 
-      >
-        {todo => (
-          <TodoItem
-            key={todo.text}
-            text={todo.text}
-            completed={todo.completed}
-            onComplete={() => completeTodo(todo.text)}
-            onDelete={() => deleteTodo(todo.text)}
-          />
-        )}
-      </TodoList>
+        >
+          {todo => (
+            <TodoItem
+              key={todo.text}
+              text={todo.text}
+              completed={todo.completed}
+              onComplete={() => completeTodo(todo.text)}
+              onDelete={() => deleteTodo(todo.text)}
+            />
+          )}
+        </TodoList>
 
         {openModal && (
           <Modal>
-            <TodoForm  
+            <TodoForm
               addTodo={addTodo}
               setOpenModal={setOpenModal}
             />
