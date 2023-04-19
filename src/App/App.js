@@ -13,6 +13,7 @@ import { MainContainer } from "../Components/MainContainer";
 import "../styles/global.css";
 import { TodoLoading } from "../Components/TodoLoading";
 import { EmptyTodos } from "../Components/EmptyTodos";
+import { TodosError } from "../Components/TodosError";
 import { ChangeAlertWithStorageListener } from "../Components/ChangeAlert";
 
 function App() {
