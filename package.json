@@ -32,7 +32,7 @@
   "homepage": "https://guerrita.github.io/to-do-list",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --open",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
