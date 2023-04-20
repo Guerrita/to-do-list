@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/to-do-list/static/css/main.2b13aec3.css",
+    "main.css": "/to-do-list/static/css/main.ae0c7262.css",
     "main.js": "/to-do-list/static/js/main.586d390f.js",
     "static/media/abstract-flowing-neon-wave-background.jpg": "/to-do-list/static/media/abstract-flowing-neon-wave-background.eb9242a914707167c174.jpg",
     "static/media/not-todos.png": "/to-do-list/static/media/not-todos.b6711ac14e163f80ba19.png",
     "static/media/fabulous-to-do-list.png": "/to-do-list/static/media/fabulous-to-do-list.13423d967742578fb381.png",
     "static/media/delete-svgrepo-com.svg": "/to-do-list/static/media/delete-svgrepo-com.f0a4415950b69dae9070df1e74fa3a7d.svg",
     "index.html": "/to-do-list/index.html",
-    "main.2b13aec3.css.map": "/to-do-list/static/css/main.2b13aec3.css.map",
+    "main.ae0c7262.css.map": "/to-do-list/static/css/main.ae0c7262.css.map",
     "main.586d390f.js.map": "/to-do-list/static/js/main.586d390f.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b13aec3.css",
+    "static/css/main.ae0c7262.css",
     "static/js/main.586d390f.js"
   ]
 }
