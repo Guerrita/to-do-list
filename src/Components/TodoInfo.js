@@ -6,11 +6,12 @@ function TodoInfo() {
   return (
     <div>
       <h1 className="title">Bienvenido a tu lista de To Do's</h1>
-      <br/>
-      <h5 className="subtitle">Esta aplicacion fue realizada con la intención de que tu puedas guardar acá tu lista de To Do's y que no se pierdan cuando cierres la aplicación</h5>
-      <p className='instruction'>En la siguiente sección encontrarás una lista con tus To Do's que has y que no has realizado, ademas de un buscador para que puedas encontrar tus To Do's mas fácil</p>
-      <img className="todo-list-image" src={List}/>
-      
+      <br />
+      <p className='instruction'>
+      Esta aplicación te permitirá almacenar tus listas de tareas pendientes (To-Do's) de manera segura, evitando que se pierdan al cerrar la aplicación. En la sección correspondiente, podrás visualizar una lista de tus To-Do's realizados y pendientes, y también contarás con un práctico buscador para encontrarlos con mayor facilidad.
+        </p>
+      <img className="todo-list-image" src={List} />
+
     </div>
   );
 }

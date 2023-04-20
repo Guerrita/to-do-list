@@ -10,10 +10,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url('../assets/abstract-flowing-neon-wave-background.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: rgb(1,1,27);
+  background: linear-gradient(90deg, rgba(1,1,27,1) 0%, rgba(2,76,185,1) 50%, rgba(219,84,212,1) 100%);
   color: white;
 }
 
@@ -58,13 +56,5 @@ body {
   }
   100% {
     transform: rotate(360deg);
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  body {
-    background-image:none;
-    background: rgb(1,1,27);
-    background: linear-gradient(90deg, rgba(1,1,27,1) 0%, rgba(2,76,185,1) 50%, rgba(219,84,212,1) 100%);
   }
 }
