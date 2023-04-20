@@ -19,3 +19,9 @@
   display: flex;
   margin: 20px auto;
 }
+
+@media screen and (max-width: 1023px) {
+  .todo-list-image{
+    width: 80%;
+  }
+}

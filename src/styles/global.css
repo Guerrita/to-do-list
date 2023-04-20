@@ -60,3 +60,11 @@ body {
     transform: rotate(360deg);
   }
 }
+
+@media screen and (max-width: 1023px) {
+  body {
+    background-image:none;
+    background: rgb(1,1,27);
+    background: linear-gradient(90deg, rgba(1,1,27,1) 0%, rgba(2,76,185,1) 50%, rgba(219,84,212,1) 100%);
+  }
+}
