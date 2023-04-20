@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/to-do-list/static/css/main.ae0c7262.css",
-    "main.js": "/to-do-list/static/js/main.586d390f.js",
-    "static/media/abstract-flowing-neon-wave-background.jpg": "/to-do-list/static/media/abstract-flowing-neon-wave-background.eb9242a914707167c174.jpg",
+    "main.css": "/to-do-list/static/css/main.1bdc737f.css",
+    "main.js": "/to-do-list/static/js/main.5d6ce7d7.js",
     "static/media/not-todos.png": "/to-do-list/static/media/not-todos.b6711ac14e163f80ba19.png",
     "static/media/fabulous-to-do-list.png": "/to-do-list/static/media/fabulous-to-do-list.13423d967742578fb381.png",
     "static/media/delete-svgrepo-com.svg": "/to-do-list/static/media/delete-svgrepo-com.f0a4415950b69dae9070df1e74fa3a7d.svg",
     "index.html": "/to-do-list/index.html",
-    "main.ae0c7262.css.map": "/to-do-list/static/css/main.ae0c7262.css.map",
-    "main.586d390f.js.map": "/to-do-list/static/js/main.586d390f.js.map"
+    "main.1bdc737f.css.map": "/to-do-list/static/css/main.1bdc737f.css.map",
+    "main.5d6ce7d7.js.map": "/to-do-list/static/js/main.5d6ce7d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae0c7262.css",
-    "static/js/main.586d390f.js"
+    "static/css/main.1bdc737f.css",
+    "static/js/main.5d6ce7d7.js"
   ]
 }
